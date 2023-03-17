@@ -1,0 +1,184 @@
+.containerstandings {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+}
+
+.standingtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.standingtitle h2 {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.standingbuttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.standingbuttons button {
+    display: flex;
+    width: 13.85rem;
+    height: 3.8rem;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem 1.6rem;
+    border: 1px solid #efefef;
+    background-color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    
+}
+
+.standingbuttons button:first-child {
+    border-right: none;
+    border-bottom-left-radius: .675rem;
+    border-top-left-radius: .675rem;
+}
+
+.standingbuttons button:last-child {
+    border-left: none;
+
+    border-bottom-right-radius: .675rem;
+    border-top-right-radius: .675rem;
+} 
+
+.standingbuttons button.activebutton {
+background-color: black;
+border: none;
+color: white;
+transition: .3s;
+}
+
+.linkstand {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #0268d6;
+}
+
+.imageteam {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+thead {
+    font-size: 1rem;
+}
+
+
+tbody {
+    font-size: 1.4rem;
+}
+
+.firstth {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.a {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    align-items: center;
+}
+
+.firstspan {
+    min-width: 1.6rem;
+    color: black;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.thirdspan {
+    font-family: 'Roboto Condensed' , Arial,sans-serif;
+    color: #0268d6;
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+th {
+    height: 4rem;
+    font-family: 'Roboto Condensed' , Arial,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+td {
+    text-align: center;
+    height: 4rem;
+  
+    border: 1.5px solid #efefef;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    font-family: 'Roboto Condensed' , Arial,sans-serif;
+    
+}
+
+.last10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 70%;
+    border-radius: 5px;
+    
+}
+
+.last10.dez {
+    background-color: #64BC61;
+}
+.last10.nove {
+    background-color: #64BC61;
+}
+.last10.oito {
+    background-color: #64BC61;
+}
+.last10.sete {
+    background-color: #A4D681;
+}
+.last10.seis {
+    background-color: #D7EE8E;
+}
+.last10.cinco {
+    background-color: #F9F7AE;
+}
+.last10.quatro {
+    background-color: #FEDD8D;
+}
+.last10.tres {
+    background-color: #FCAC63;
+}
+.last10.dois {
+    background-color: #F16E43;
+}
+.last10.um {
+    background-color: #F16E43;
+}
+.last10.zero {
+    background-color: #F16E43;
+}
+
+.thisone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

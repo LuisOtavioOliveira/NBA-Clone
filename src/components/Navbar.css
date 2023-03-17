@@ -1,0 +1,39 @@
+
+
+.containernav {
+    min-height: 5.5rem;
+    display: flex;
+background-color: #000;
+    align-items: center;
+    padding: 0 26.35rem;
+    width: 100%;
+}
+
+.img {
+    margin-right: 2.8rem;
+}
+
+.containernav ul {
+    display: flex;
+    color: #f4f4f4;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    list-style: none;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.containernav ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containernav ul li p {
+    font-weight: 400;
+}
+
+.ul1 {
+    margin-right: 39.99rem;
+}

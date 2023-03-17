@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+.containergamebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 14.5rem;
+    padding: 0.8rem;
+    gap: .5rem;
+    border-right: 1px solid #f7f7f7;
+}
+
+.finallp {
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finallp span {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.025rem;
+}
+
+.spanlp {
+    color: #8e9196;
+    
+}
+
+.imgteam {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+
+}
+
+.team1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teamtag {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.spanscore {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+}

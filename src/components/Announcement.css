@@ -1,0 +1,124 @@
+.containerlp {
+    background-color: white;
+    width: 30.8rem;
+    height: 44.439rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.lplm {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid #f3f4f5;
+    margin-bottom: 2.8rem;
+    
+    
+}
+
+.lplm h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.lplm a {
+    font-size: 1.2rem;
+    color: #0268d6;
+    text-decoration: none;
+}
+
+.titleimage {
+    width: 18.9rem;
+    height: 4rem;
+    margin-bottom: 1.3rem;
+}
+
+.imageall {
+    background-color: #1d428a;
+    width: 25.2rem;
+    height: 30.99rem;
+    background-image: url('https://cdn.nba.com/next/patterns/league-pass-promo-banner.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select:none
+    
+}
+
+.imageall h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 1.1rem;
+font-family: 'Oswald', sans-serif;
+
+}
+
+.imageall p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 18rem;
+}
+
+.imageall button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 8.5rem;
+    height: 4.8rem;
+}
+
+.buttonslp {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+.button1 {
+    background-color: #f3f4f5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Roboto condesed', sans-serif;
+}
+
+.button1:hover {
+    background-color: black;
+    color: white;
+    transition: .3s;
+}
+
+.button2 {
+    background-color: #1d428a;
+    border: 1px solid #f3f4f5;
+    border-radius: 3px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Roboto condesed', sans-serif;
+}
+
+.button2:hover {
+    background-color: #f3f4f5;
+    color: black;
+    transition: .3s;
+}
+
+small {
+    font-size: .9rem;
+}

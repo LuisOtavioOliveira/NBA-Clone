@@ -1,0 +1,43 @@
+
+
+.containertrending {
+    width: 92.4rem;
+    height: 30rem;
+    background-color: white;
+    padding: 2rem 0rem 0rem 2rem; 
+    border-radius: .4rem;
+}
+
+.titlenews {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px solid #efefef;
+}
+
+.titlenews h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.news {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0.8rem;
+    height: 0.7rem;
+    background-color: #F5F5F5;
+    cursor: pointer;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(214, 214, 214);
+    border-radius: 4px;
+    cursor: pointer;
+  }

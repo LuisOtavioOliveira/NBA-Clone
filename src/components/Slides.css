@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.topdiv {
+    display: flex;
+}
+
+.textdiv {
+    display: flex;
+    flex-direction: column;     
+    color: white;
+    padding: 6.4rem 4rem 0rem;
+    max-width: 45rem;
+    margin-right: -16rem;
+background-color: black;
+    box-shadow: 20rem 0 2rem rgba(0,0,0,0.5);
+
+
+
+}
+
+.textdiv h2 {
+    font-size: 2.8rem;
+    margin-bottom: 3.6rem;
+    position: relative;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.textdiv p {
+    font-size: 1.4rem;
+    margin-bottom: 2.4rem;
+    position: relative;
+    
+}
+
+.textdiv button {
+    font-size: 1.4rem;
+    background-color: black;
+    padding: 1.2rem 3.2rem;
+    border: 2px solid #e5e7eb;
+    font-weight: 700;
+    color: white;
+    border-radius: 9999px;
+    width: 10.33rem;
+    text-transform: uppercase;
+    margin-bottom: 3.2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.textdiv h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+    position: relative;
+   
+}
+
+.textdiv a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: .8rem;
+    position: relative;
+}
+
+.buttonsdiv {
+    background-color: black;
+    width: 92.4rem;
+    display: flex;
+    color: #545454;
+    gap: 1.6rem;
+    padding: .5rem;
+    user-select:none;
+}
+
+.setslidebutton {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    gap: .6rem;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+
+.setslidebutton h4 {
+    font-size: 1.3rem;
+}
+
+.setslidebutton h5 {
+    font-size: 1.3rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    max-width: 15rem;
+}
+
+.setslidebutton.actualslide {
+    color: white;
+}
+
+.timebar {
+   background-color: #545454;
+   width: 15.6rem;
+   height: 0.4rem;
+   border-radius: 9999px;
+}
+
+.actualslide .timebar .realtimebar{
+    background-color: white;
+    animation: slidein linear 6.9s;
+    width: 15.6rem;
+    height: 0.4rem;
+    border-radius: 999px;
+
+}
+
+.actualslide .timebar .fixedtimebar {
+    background-color: white;
+    width: 15.6rem;
+    height: 0.4rem;
+    border-radius: 999px;
+}
+
+@keyframes slidein {
+    from {
+      width: 0%;
+    }
+  
+    to {
+      width: 100%;
+    }
+  }
+
+  
+
+.animslide {
+    width: 200rem;
+    height: 300rem;
+}
+
+.leaguepass {
+    width: 92.4rem;
+    height: 4rem;
+    margin-bottom: -3px;
+}

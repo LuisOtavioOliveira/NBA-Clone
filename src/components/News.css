@@ -1,0 +1,21 @@
+.containernews {
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    height: 20rem;
+    gap: 1.5rem;
+}
+
+.containernews img {
+    width: 24rem;
+    height: 13.6rem;
+}
+
+.containernews h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 24rem;
+    text-align: start;
+    font-family: 'Oswald', sans-serif;
+}

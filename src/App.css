@@ -1,0 +1,37 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.fixedcontent {
+    z-index: 300;
+    flex-direction: column;
+    position: fixed;
+    margin-bottom: 2rem;
+    width: 100%;
+
+}
+
+.mainpage {
+    margin-top: 15rem;
+    padding-left: 31.2rem;
+    padding-right: 31.2rem;
+    padding-top: 3rem;
+    display: flex;
+    gap: 2.4rem;
+    min-height: 100vh;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
