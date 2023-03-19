@@ -1,13 +1,15 @@
 import React from 'react'
 import './Gamesbar.css'
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import Gamebox from './Gamebox'
 
 const Gamesbar = () => {
 
-    const [show, setShow] = useState(false)
+    const [show, setShow] = useState(true)
     const [svg, setSvg] = useState('../imgs/seta.svg')
     const [scrollpos, setScrollpos] = useState(0)
+
+
 
     const teams = [{
       tag:'CHA',
@@ -80,6 +82,27 @@ const Gamesbar = () => {
        
     }
 
+    const saveToLocalStorage = (value) => {
+      localStorage.setItem('show', value);
+    }
+
+    function getItemFromLocalStorage() {
+      try {
+        const item = localStorage.getItem('show');
+        return JSON.parse(item);
+      } catch (error) {
+        console.error(error);
+        return null;
+      }
+    }
+
+  useEffect(() => {
+  const result = getItemFromLocalStorage()
+  setShow(result)
+  
+  }, [])
+  
+
 
   return (
     <div className='containergamebar'>
@@ -96,7 +119,7 @@ const Gamesbar = () => {
               
             <label className='divhide'>
               <span>Hide Scores</span>
-            <div className={show ? 'divactive' : 'divinative'} onClick={() => setShow(!show)}>    <p className={show ? 'active' : 'inative'} ></p>  </div>  
+            <div className={show ? 'divactive' : 'divinative'} onClick={() => {setShow(!show); saveToLocalStorage(!show);}}>    <p className={show ? 'active' : 'inative'} ></p>  </div>  
             </label>
             </div> 
             

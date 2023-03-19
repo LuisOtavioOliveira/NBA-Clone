@@ -9,27 +9,27 @@ const Standings = () => {
     const EastTeams = [{
         name: 'MIL',
         wins: 50,
-        loses: 19,
+        loses: 20,
         last10: '8-2',
         img: 'https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg'
     },
     {
         name: 'CLE',
-        wins: 44,
+        wins: 45,
         loses: 28,
         last10: '6-4',
         img: 'https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg'
     },
     {
         name: 'BOS',
-        wins: 48,
+        wins: 49,
         loses: 22,
         last10: '5-5',
         img: 'https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg'
     },
     {
         name: 'PHI',
-        wins: 46,
+        wins: 47,
         loses: 22,
         last10: '7-3',
         img: 'https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg'
@@ -44,7 +44,7 @@ const Standings = () => {
     {
         name: 'BKN',
         wins: 39,
-        loses: 30,
+        loses: 31,
         last10: '5-5',
         img: 'https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg'
     },
@@ -57,14 +57,14 @@ const Standings = () => {
     },
     {
         name: 'ATL',
-        wins: 34,
+        wins: 35,
         loses: 35,  
         last10: '5-5',
         img: 'https://cdn.nba.com/logos/nba/1610612737/global/L/logo.svg'
     },
     {
         name: 'TOR',
-        wins: 33,
+        wins: 34,
         loses: 36,
         last10: '5-5',
         img: 'https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg'
@@ -72,20 +72,20 @@ const Standings = () => {
     {
         name: 'WAS',
         wins: 32,
-        loses: 37,
+        loses: 38,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612764/global/L/logo.svg'
     },
     {
         name: 'CHI',
-        wins: 31,
+        wins: 32,
         loses: 37,
         last10: '5-5',
         img: 'https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg'
     },
     {
         name: 'IND',
-        wins: 31,
+        wins: 32,
         loses: 38,
         last10: '6-4',
         img: 'https://cdn.nba.com/logos/nba/1610612754/global/L/logo.svg'
@@ -93,21 +93,21 @@ const Standings = () => {
     {
         name: 'ORL',
         wins: 28,
-        loses: 41,
+        loses: 42,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612753/global/L/logo.svg'
     },
     {
         name: 'CHA',
         wins: 22,
-        loses: 49,
+        loses: 50,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612766/global/L/logo.svg'
     },
     {
         name: 'DET',
         wins: 16,
-        loses: 54,
+        loses: 55,
         last10: '1-9',
         img: 'https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg'
     }
@@ -129,7 +129,7 @@ const Standings = () => {
     },
     {
         name: 'MEM',
-        wins: 41,
+        wins: 42,
         loses: 27,
         last10: '6-4',
         img: 'https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg'
@@ -151,20 +151,20 @@ const Standings = () => {
     {
         name: 'GSW',
         wins: 36,
-        loses: 34,
+        loses: 35,
         last10: '6-4',
         img: 'https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg'
-    },
+    },  
     {
         name: 'MIN',
         wins: 35,
-        loses: 35,
+        loses: 36,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612750/global/L/logo.svg'
     },
     {
         name: 'DAL',
-        wins: 35,
+        wins: 36,
         loses: 35,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg'
@@ -172,7 +172,7 @@ const Standings = () => {
     {
         name: 'LAL',
         wins: 34,
-        loses: 36,
+        loses: 37,
         last10: '6-4',
         img: 'https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg'
     },
@@ -193,27 +193,27 @@ const Standings = () => {
     {
         name: 'NOP',
         wins: 33,
-        loses: 36,
+        loses: 37,
         last10: '3-7',
         img: 'https://cdn.nba.com/logos/nba/1610612740/global/L/logo.svg'
     },
     {
         name: 'POR',
         wins: 31,
-        loses: 38,
+        loses: 39,
         last10: '3-7',
         img: 'https://cdn.nba.com/logos/nba/1610612757/global/L/logo.svg'
     },
     {
         name: 'SAS',
         wins: 18,
-        loses: 51,
+        loses: 52,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg'
     },
     {
         name: 'HOU',
-        wins: 17,
+        wins: 18,
         loses: 52,
         last10: '4-6',
         img: 'https://cdn.nba.com/logos/nba/1610612745/global/L/logo.svg'
