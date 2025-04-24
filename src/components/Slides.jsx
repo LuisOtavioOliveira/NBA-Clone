@@ -9,10 +9,10 @@ import img5 from '../../imgs/img5.avif'
 const Slides = () => {
 
     const slides = [{
-title: 'A MASTERCLASS FROM STEPHEN CURRY TO WARRIORS WIN GAME 7 IN SAC',
-paragraph: 'Stephen Curry shined with 43 points to warriors advance to the next round.',
+title: 'JIMMY BUTLER AND STEPHEN CURRY TAKES THE WARRIORS TO THE SECOND ROUND',
+paragraph: 'Stephen Curry and Jimmy Butler shines in the game 5 and the Warriors defeat the Rockets to advance to the second round of NBA Playoffs.',
 buttontext: 'watch',
-links: ['Warriors 118, Kings 112.', 'NBA History: Curry drops 37 on Kings in 2022.', 'What expect about Lakers vs Warriors.'],
+links: ['Warriors 106, Rockets 101.', 'NBA History: Jimmy Butler drops 56 on Bucks in 2023.', 'What expect about Lakers vs Warriors.'],
 buttontitle: 'highlights',
 buttondescription: 'A MASTERCLASS FROM STEPHEN CURRY TO WARRIORS WIN GAME 7 IN SAC',
 image: img1
